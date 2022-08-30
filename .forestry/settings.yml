@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: src/tarifsEtPrestations.njk
+  path: src/tarifsEtPrestations.html
   label: Tarifs
 upload_dir: src/assets
 public_path: src/assets
