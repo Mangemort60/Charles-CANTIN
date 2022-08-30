@@ -3,10 +3,7 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections:
-- type: document
-  path: src/tarifsEtPrestations.html
-  label: Tarifs
+sections: 
 upload_dir: src/assets
 public_path: src/assets
 front_matter_path: ''
