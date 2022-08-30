@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: src/tarifsEtPrestations
+  path: src/tarifsEtPrestations.html
   label: Tarifs
   match: "**/*"
 upload_dir: src/assets
