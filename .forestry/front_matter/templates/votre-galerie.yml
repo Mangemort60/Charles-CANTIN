@@ -2,14 +2,9 @@
 label: Votre galerie
 hide_body: false
 fields:
-- name: photo
-  type: file
-  config:
-    maxSize: 64
-  label: Photo
 - name: photos
   type: image_gallery
   config: {}
-  label: photos
+  label: Votre galerie
 pages:
 - src/galerie.html
