@@ -8,11 +8,16 @@
     <title>{{title}}</title>
 </head>
 <body>
+    <header>
     {% include 'header.njk'%}
+    </header>
     <main>
     {{ content | safe }}
     </main>
     {% include 'footer.njk'%}
+    <footer>
+        
+    </footer>
     <script src="../script.js"></script>
 </body>
 </html>
