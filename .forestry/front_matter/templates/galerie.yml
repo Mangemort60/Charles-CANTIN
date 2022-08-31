@@ -1,0 +1,9 @@
+---
+label: Galerie
+hide_body: false
+fields:
+- name: photo
+  type: file
+  config:
+    maxSize: 64
+  label: Photo
