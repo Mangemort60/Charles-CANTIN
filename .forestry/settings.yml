@@ -7,7 +7,6 @@ sections:
 - type: document
   path: src/galerie.html
   label: Galerie
-  match: "**/*"
 - type: document
   path: src/tarifsEtPrestations.html
   label: Tarifs
