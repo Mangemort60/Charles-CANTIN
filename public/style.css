@@ -215,3 +215,8 @@ body {
     box-shadow: 1px 0px 15px 1px rgba(117, 117, 117, 0.082);
 
 }
+
+/*n'affiche pas image si pas d'image*/
+.photo img[src=""] {
+    display: none;
+}
