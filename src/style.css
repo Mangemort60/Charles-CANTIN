@@ -188,6 +188,7 @@ body {
 
     height: 474px;
     width: 316px;
+    margin: 10px 0px;
 }
 
 .category ul {
@@ -217,6 +218,9 @@ body {
 }
 
 /*n'affiche pas image si pas d'image*/
-.photo img[src=""] {
+
+.photo[src=""] {
     display: none;
+    height: 0px;
+    width: 0px;
 }
