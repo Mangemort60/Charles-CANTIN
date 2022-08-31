@@ -11,8 +11,8 @@ sections:
   path: src/tarifsEtPrestations.html
   label: Tarifs
 upload_dir: public/assets
-public_path: src/assets
-front_matter_path: ''
+public_path: public/assets
+front_matter_path: "/assets"
 use_front_matter_path: false
 file_template: ":filename:"
 build:
