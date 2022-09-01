@@ -6,6 +6,11 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: seul
+    type: text
+    config:
+      required: false
+    label: Seul
   - name: couple
     type: text
     config:
@@ -16,11 +21,6 @@ fields:
     config:
       required: false
     label: Famille
-  - name: seul
-    type: text
-    config:
-      required: false
-    label: Seul
   - name: grossesse
     type: text
     config:
@@ -41,6 +41,11 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: seul
+    type: text
+    config:
+      required: false
+    label: Seul
   - name: couple
     type: text
     config:
@@ -51,11 +56,6 @@ fields:
     config:
       required: false
     label: Famille
-  - name: seul
-    type: text
-    config:
-      required: false
-    label: Seul
   - name: grossesse
     type: text
     config:
@@ -76,6 +76,11 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: seul
+    type: text
+    config:
+      required: false
+    label: Seul
   - name: couple
     type: text
     config:
@@ -86,11 +91,6 @@ fields:
     config:
       required: false
     label: Famille
-  - name: seul
-    type: text
-    config:
-      required: false
-    label: Seul
   - name: grossesse
     type: text
     config:
