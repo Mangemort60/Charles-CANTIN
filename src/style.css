@@ -7,7 +7,7 @@
 }
 
 body, html {
-    max-width: 1900px;
+    max-width: 100vw;
     margin: 0px;
     padding: 0px;
 }
@@ -61,11 +61,19 @@ body, html {
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .navbar-links li:hover {
     background-color: rgba(85, 85, 85, 0.616);
+}
+
+.navbar-social.active {
+    display: initial;
+}
+
+.navbar-social{
+    display: none
 }
 
 .toggle-button {
@@ -304,10 +312,27 @@ body, html {
 
 /*MEDIAQUERIES*/
 
-/*ACCUEIL*/
+
 
 @media (min-width: 800px) {
-    
+
+/*NAVBAR*/
+
+.navbar-social {
+    display: initial;
+}
+
+/*ACCUEIL*/
+
+.home-bg {
+    background-image: url('./assets/paraplui.jpg');
+    background-color: rgba(0, 0, 0, 0.918);
+    background-size: cover;
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position: inherit;
+}
+
 .callToAction h1 {
     font-size: 4rem;
     font-weight: bolder;
