@@ -6,7 +6,8 @@
     font-family: 'Source Sans Pro', sans-serif;;
 }
 
-body {
+body, html {
+    max-width: 1900px;
     margin: 0px;
     padding: 0px;
 }
@@ -20,6 +21,7 @@ body {
 }
 
 .navbar {
+
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -139,7 +141,7 @@ body {
     background-blend-mode: screen;
     background-position: right -500px bottom 0px;
     background-repeat: no-repeat;
- 
+
 }
 
 .callToAction {
@@ -184,12 +186,24 @@ body {
     align-items: center;
 }
 
-.photo {
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
 
+.photo {
+    
     height: 474px;
     width: 316px;
-    margin: 10px 0px;
+    margin: 10px 10px;
+    
 }
+
+
 
 .category ul {
     display: flex;
@@ -223,4 +237,31 @@ body {
     display: none;
     height: 0px;
     width: 0px;
+}
+
+
+/* TARIFS ET PRESTATIONS */
+
+.serviceContents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center ;
+}
+
+.serviceTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+
+    width: 316px;
+    height: 228px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7A8D9B ;
 }
