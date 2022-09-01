@@ -1,9 +1,6 @@
 ---
 title: Tarifs
 layout: base.njk
-prestation: Mariage
-description_prestation: photos mariages
-prix: 300
 nom_de_la_prestation:
   couple: "« Pour deux »"
   famille: "« Famille » "
@@ -40,18 +37,34 @@ prix_de_la_prestation:
 </div>
 <div class="serviceContents">
         <div class="service">
-                    <h2>{{prestation}}</h2>
-                    <p>{{description_prestation}}</p>
-                    <p><span>{{prix}}</span>€</p>
+                    <h2>{{nom_de_la_prestation.seul}}</h2>
+                    <p>{{description_de_la_prestation.seul}}</p>
+                    <p><span>{{prix.seul}}</span>€</p>
         </div>
         <div class="service">
-                    <h2>{{prestation}}</h2>
-                    <p>{{description_prestation}}</p>
-                    <p><span>{{prix}}</span>€</p>
+                    <h2>{{nom_de_la_prestation.couple}}</h2>
+                    <p>{{description_de_la_prestation.couple}}</p>
+                    <p><span>{{prix.couple}}</span>€</p>
         </div>
         <div class="service">
-                    <h2>{{prestation}}</h2>
-                    <p>{{description_prestation}}</p>
-                    <p><span>{{prix}}</span>€</p>
+                    <h2>{{nom_de_la_prestation.seul}}</h2>
+                    <p>{{description_de_la_prestation.seul}}</p>
+                    <p><span>{{prix.seul}}</span>€</p>
         </div>
+        <div class="service">
+                    <h2>{{nom_de_la_prestation.seul}}</h2>
+                    <p>{{description_de_la_prestation.seul}}</p>
+                    <p><span>{{prix.seul}}</span>€</p>
+        </div>
+        <div class="service">
+                    <h2>{{nom_de_la_prestation.seul}}</h2>
+                    <p>{{description_de_la_prestation.seul}}</p>
+                    <p><span>{{prix.seul}}</span>€</p>
+        </div>
+        <div class="service">
+                    <h2>{{nom_de_la_prestation.seul}}</h2>
+                    <p>{{description_de_la_prestation.seul}}</p>
+                    <p><span>{{prix.seul}}</span>€</p>
+        </div>
+
 </div>
