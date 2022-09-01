@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <link rel="stylesheet" href="/style.css">
     <title>Contact</title>
 </head>
@@ -21,18 +24,104 @@
         </a>
         <div class="navbar-links">
           <ul>
-            <li><a href="/public/galerie/index.html">Galerie</a></li>
-            <li><a href="/public/tarifsEtPrestations/index.html">Tarifs et prestations</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="/galerie">Galerie</a></li>
+            <li><a href="/tarifsEtPrestations">Tarifs et prestations</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
       </nav>
 
     </header>
     <main>
-    
-<h1>Contactez moi</h1>
-<p>0647565442</p>
+    <div class="form">
+    <!--Section: Contact v.2-->
+    <section class="mb-4 p-4">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contactez-moi !</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Vous avez une question ? n'hesitez pas à me contacter via le formulaire ci dessous, je vous répondrai en moins de 24H</p>
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="name" class="">Votre nom</label>
+                                <input type="text" id="name" name="name" class="form-control">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="email" class="">Votre email</label>
+                                <input type="text" id="email" name="email" class="form-control">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <label for="message">Votre message</label>
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-start mt-2 text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Envoyer</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>25 rue des Arts, Paris 75008</p>
+                    </li>
+
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+ 01 234 567 89</p>
+                    </li>
+
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>c.cantin@photo.com</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+        </div>
+
+    </section>
+    <!--Section: Contact v.2-->
+</div>
     </main>
         <div class="footer">
     <img src="../assets/logo.png" alt="" width="50" height="50">
@@ -48,5 +137,8 @@
         
     </footer>
     <script src="../script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
 </body>
 </html>
