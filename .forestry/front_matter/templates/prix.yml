@@ -2,25 +2,110 @@
 label: Prix
 hide_body: true
 fields:
-- name: prestation
-  type: text
-  config:
-    required: false
-  label: Prestation
-- name: description_prestation
-  type: text
-  config:
-    required: false
-  label: Description prestation
-- name: prix
-  type: number
-  label: Prix
-  description: ''
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
+- name: nom_de_la_prestation
+  type: field_group
+  config: {}
+  fields:
+  - name: couple
+    type: text
+    config:
+      required: false
+    label: Couple
+  - name: famille
+    type: text
+    config:
+      required: false
+    label: Famille
+  - name: mariage
+    type: text
+    config:
+      required: false
+    label: Mariage
+  - name: grossesse
+    type: text
+    config:
+      required: false
+    label: Grossesse
+  - name: bebe
+    type: text
+    config:
+      required: false
+    label: Bébé
+  - name: bapteme
+    type: text
+    config:
+      required: false
+    label: Baptême
+  label: nom de la prestation
+- name: description_de_la_prestation
+  type: field_group
+  config: {}
+  fields:
+  - name: couple
+    type: text
+    config:
+      required: false
+    label: Couple
+  - name: famille
+    type: text
+    config:
+      required: false
+    label: Famille
+  - name: mariage
+    type: text
+    config:
+      required: false
+    label: Mariage
+  - name: grossesse
+    type: text
+    config:
+      required: false
+    label: Grossesse
+  - name: bebe
+    type: text
+    config:
+      required: false
+    label: Bébé
+  - name: bapteme
+    type: text
+    config:
+      required: false
+    label: Baptême
+  label: Description de la prestation
+- name: prix_de_la_prestation
+  type: field_group
+  config: {}
+  fields:
+  - name: couple
+    type: text
+    config:
+      required: false
+    label: Couple
+  - name: famille
+    type: text
+    config:
+      required: false
+    label: Famille
+  - name: mariage
+    type: text
+    config:
+      required: false
+    label: Mariage
+  - name: grossesse
+    type: text
+    config:
+      required: false
+    label: Grossesse
+  - name: bebe
+    type: text
+    config:
+      required: false
+    label: Bébé
+  - name: bapteme
+    type: text
+    config:
+      required: false
+    label: Baptême
+  label: Prix de la prestation
 pages:
 - src/tarifsEtPrestations.html
