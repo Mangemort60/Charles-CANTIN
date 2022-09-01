@@ -64,9 +64,9 @@ body, html {
     padding: 1.5rem;
 }
 
-/* .navbar-links li:hover {
+.navbar-links li a:hover {
     background-color: rgba(85, 85, 85, 0.616);
-} */
+}
 
 .navbar-social.active {
     display: initial;
@@ -331,6 +331,10 @@ body, html {
         padding: 15px 20px;
         position: relative;
 
+}
+
+.navbar-links li a:hover {
+    background-color: initial;
 }
 
 .navbar-links a:after {    
