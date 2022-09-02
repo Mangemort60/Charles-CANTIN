@@ -6,9 +6,19 @@ fields:
   type: image_gallery
   config: {}
   label: Votre galerie
-- name: categorie
-  type: tag_list
-  default: []
-  label: Categorie
+- name: galerie_2
+  type: field_group
+  config: {}
+  fields:
+  - name: photo
+    type: file
+    config:
+      maxSize: 64
+    label: Photo
+  - name: categorie
+    type: tag_list
+    default: []
+    label: categorie
+  label: Galerie 2
 pages:
 - src/galerie.html
