@@ -27,13 +27,10 @@ fields:
         file: 
         path: 
     label: categories
-  - name: liste
-    type: list
-    config:
-      use_select: false
-      min: 
-      max: 
-    label: liste
+  - name: categorie
+    type: tag_list
+    default: []
+    label: categorie
   label: test photo et categorie
 pages:
 - src/galerie.html
