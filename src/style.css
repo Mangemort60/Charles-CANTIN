@@ -145,9 +145,8 @@ body, html {
 /* ACCUEIL */
 
 .home-bg {
-    background-image: url('../assets/seul-1.jpg');
-    background-blend-mode: screen;
-    background-position: right -500px bottom 0px;
+    background-image: url('/assets/seul-1.jpg');
+    background-position: right -200px bottom 0px;
     background-repeat: no-repeat;
 
 }
@@ -240,6 +239,12 @@ body, html {
 
 
 }
+
+.gallery-item.hide{
+    display: none;
+}
+
+
 
 .category ul li:hover {
     background: red;
@@ -360,7 +365,7 @@ body, html {
 /*ACCUEIL*/
 
 .home-bg {
-    background-image: url('./assets/paraplui.jpg');
+    background-image: url('./assets/seul-1.jpg');
     background-color: rgba(0, 0, 0, 0.918);
     background-size: cover;
     background-blend-mode: screen;
