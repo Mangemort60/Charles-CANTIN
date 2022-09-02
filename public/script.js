@@ -6,3 +6,4 @@ toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active');
   social.classList.toggle('active')
 })
+
