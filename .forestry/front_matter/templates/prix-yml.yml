@@ -2,83 +2,26 @@
 label: prix.yml
 hide_body: false
 fields:
-- name: nom_de_la_prestation
-  type: field_group
-  config: {}
+- name: tarifs_et_prestations
+  type: field_group_list
   fields:
-  - name: seul
+  - name: prestation
     type: text
     config:
       required: false
-    label: Seul
-  - name: couple
-    type: text
+    label: Prestation
+  - name: description
+    type: textarea
+    default: ''
     config:
       required: false
-    label: Couple
-  - name: famille
-    type: text
-    config:
-      required: false
-    label: Famille
-  - name: grossesse
-    type: text
-    config:
-      required: false
-    label: Grossesse
-  - name: bebe
-    type: text
-    config:
-      required: false
-    label: Bébé
-  - name: baptemes_et_mariages
-    type: text
-    config:
-      required: false
-    label: Baptêmes et Mariages
-  label: Nom de la prestation
-- name: description_de_la_prestation
-  type: field_group
-  config: {}
-  fields:
-  - name: seul
-    type: text
-    config:
-      required: false
-    label: Seul
-  - name: couple
-    type: text
-    config:
-      required: false
-    label: Couple
-  - name: famille
-    type: text
-    config:
-      required: false
-    label: Famille
-  - name: grossesse
-    type: text
-    config:
-      required: false
-    label: Grossesse
-  - name: bebe
-    type: text
-    config:
-      required: false
-    label: Bébé
-  - name: baptemes_et_mariages
-    type: text
-    config:
-      required: false
-    label: Baptêmes et Mariages
-  label: Description de la prestation
-- name: prix_de_la_prestation
-  type: field_group
-  config: {}
-  fields:
-  - name: seul
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: prix
     type: number
-    label: Seul
+    label: Prix
     description: ''
     default: 0
     required: true
@@ -86,56 +29,10 @@ fields:
       min: 
       max: 
       step: 
-  - name: couple
-    type: number
-    label: Couple
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
-  - name: famille
-    type: number
-    label: Famille
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
-  - name: grossesse
-    type: number
-    label: Grossesse
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
-  - name: bebe
-    type: number
-    label: Bébé
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
-  - name: baptemes_et_mariages
-    type: number
-    label: Baptêmes et Mariages
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
-  label: Prix de la prestation
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Tarifs et prestations
 pages:
 - src/tarifsEtPrestations.html
