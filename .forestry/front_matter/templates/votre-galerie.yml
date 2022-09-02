@@ -3,18 +3,21 @@ label: Votre galerie
 hide_body: false
 fields:
 - name: votre_galerie
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
   - name: photo
     type: file
     config:
       maxSize: 64
-    label: Photo
+    label: Votre photo
   - name: categorie
     type: tag_list
     default: []
-    label: categorie
+    label: Categorie
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Votre galerie
 pages:
 - src/galerie.html
