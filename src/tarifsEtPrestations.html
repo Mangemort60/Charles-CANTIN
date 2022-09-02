@@ -1,6 +1,28 @@
 ---
 title: Tarifs
 layout: base.njk
+tarifs_et_prestations:
+- description: Séance pour une personne, en extérieur ou en studio
+  prix: 130
+  prestation: 'Juste moi '
+- prestation: Pour deux
+  description: Pour deux personnes, en extérieur ou en studio
+  prix: 195
+- prestation: " Famille"
+  description: |-
+    Pour la famille ou les amis jusqu’à 4 personnes, en extérieur ou en studio
+    30 euros en supplément par personne au-delà de 4 (hormis enfant jusqu’à 2 ans)
+  prix: 220
+- prestation: Il était une fois
+  description: Photo de grossesse (À votre domicile, en extérieur ou en studio)
+  prix: 160
+- prestation: " Mon bébé"
+  description: Photo d’enfant jusqu’à 3 ans (photo à domicile)
+  prix: 100
+- prestation: J’immortalise l’événement
+  description: Prestation de mariage ou baptême sur devis
+  prix: 
+
 ---
 <div class="serviceTitle">
     <h1>Tarifs et prestations</h1>
@@ -8,7 +30,7 @@ layout: base.njk
 </div>
 <div class="serviceContents">
         <div class="service" >
-                    <h2>{{prestation.seul}}</h2>
+                    <h2>{{nom_de_la_prestation.seul}}</h2>
                     <p>{{description_de_la_prestation.seul}}</p>
                     <p>{{prix_de_la_prestation.seul}}€</p>
         </div>
