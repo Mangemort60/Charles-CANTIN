@@ -6,31 +6,19 @@ fields:
   type: image_gallery
   config: {}
   label: Votre galerie
-- name: test_photo_et_categorie
+- name: galerie_2
   type: field_group
   config: {}
   fields:
-  - name: votre_photo
+  - name: photo
     type: file
     config:
       maxSize: 64
-    label: votre photo
-  - name: categories
-    type: select
-    default: ''
-    config:
-      required: false
-      options: []
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: categories
+    label: Photo
   - name: categorie
     type: tag_list
     default: []
     label: categorie
-  label: test photo et categorie
+  label: Galerie 2
 pages:
 - src/galerie.html
