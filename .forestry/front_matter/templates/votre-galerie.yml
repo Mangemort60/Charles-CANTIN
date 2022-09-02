@@ -2,11 +2,7 @@
 label: Votre galerie
 hide_body: false
 fields:
-- name: photos
-  type: image_gallery
-  config: {}
-  label: Votre galerie
-- name: galerie_2
+- name: votre_galerie
   type: field_group
   config: {}
   fields:
@@ -19,6 +15,6 @@ fields:
     type: tag_list
     default: []
     label: categorie
-  label: Galerie 2
+  label: Votre galerie
 pages:
 - src/galerie.html
