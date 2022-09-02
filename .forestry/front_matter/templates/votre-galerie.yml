@@ -6,5 +6,9 @@ fields:
   type: image_gallery
   config: {}
   label: Votre galerie
+- name: categorie
+  type: tag_list
+  default: []
+  label: Categorie
 pages:
 - src/galerie.html
