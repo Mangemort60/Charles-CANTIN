@@ -6,10 +6,10 @@ webhook_url:
 sections:
 - type: document
   path: src/galerie.html
-  label: Galerie
+  label: 'Votre galerie '
 - type: document
   path: src/tarifsEtPrestations.html
-  label: Tarifs
+  label: Tarifs et prestations
 upload_dir: public/assets
 public_path: "/assets"
 front_matter_path: "/assets"
