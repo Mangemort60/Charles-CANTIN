@@ -10,12 +10,5 @@ fields:
   type: tag_list
   default: []
   label: Categorie
-- name: test_galerie
-  type: blocks
-  label: test galerie
-  template_types: []
-  config:
-    min: 
-    max: 
 pages:
 - src/galerie.html
