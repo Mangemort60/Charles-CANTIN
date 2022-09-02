@@ -137,5 +137,37 @@ fields:
       max: 
       step: 
   label: Prix de la prestation
+- name: tarifs_et_prestations
+  type: field_group_list
+  fields:
+  - name: prestation
+    type: text
+    config:
+      required: false
+    label: Prestation
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: prix
+    type: number
+    label: Prix
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Tarifs et prestations
 pages:
 - src/tarifsEtPrestations.html
