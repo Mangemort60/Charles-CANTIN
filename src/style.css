@@ -208,8 +208,10 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
-    
+}
+
+img {
+    color: transparent;
 }
 
 .photo {
