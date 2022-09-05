@@ -43,6 +43,7 @@ const mapButton = arrButtonCategorie.map( element => {
         }     
         else {
         photo.style.display = 'none'
+        photo.attributes('alt').style.display = "none"
       }
     } )
 
