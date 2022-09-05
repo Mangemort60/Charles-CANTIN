@@ -426,34 +426,16 @@ img {
     box-shadow: initial
 }
 
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 
-/*CLASS FOR JS*/
-
-.hide {
-    display: none;
 }
 
-.show {
-    display: block;
-}
 
-/* 
-AFFICHE TOUT 
-si click sur MARIAGE, MARIAGE S'AFFICHE
-autre ITEMS NE S'AFFICHE PAS
-si clik sur BEBE , MARIAGE NE S'AFFICHE PLUS, AUTRE NE S'AFFICHE PLUS
-BEBE S'AFFICHE
-
-PSEUDO
-ALGORITHME filter
-
-VARIABLE :
-
-filterCategorie : ;
-filterItem : ;
-
-
-*/
 
