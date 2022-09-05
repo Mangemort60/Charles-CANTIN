@@ -221,7 +221,7 @@ body, html {
 }
 
 
-.category ul {
+.items {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -231,7 +231,7 @@ body, html {
 
 }
 
-.category ul li {
+.items .item {
     margin: 10px;
     cursor: pointer;
     padding: 10px;
@@ -240,14 +240,9 @@ body, html {
 
 }
 
-.gallery-item.hide{
-    display: none;
-}
 
-
-
-.category ul li:hover {
-    background: red;
+.items .item:hover {
+    background: gray;
     color: white;
     box-shadow: 1px 0px 15px 1px rgba(117, 117, 117, 0.082);
 
@@ -396,7 +391,7 @@ body, html {
 
 /*GALERIE*/
 
-.category ul li {
+.items .item {
     color: black;
     text-decoration: none;
     letter-spacing: 0.15em;
@@ -405,7 +400,7 @@ body, html {
     padding: 15px 20px;
     position: relative;
   }
-  .category ul li:after {    
+  .items .item:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -417,19 +412,46 @@ body, html {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  .category ul li:hover:after { 
-    width: 100%; 
-    left: 0; 
-  }
-  .category ul li:hover:after { 
+  .items .item:hover:after { 
     width: 100%; 
     left: 0; 
   }
 
-  .category ul li:hover {
+
+  .items .item:hover {
     background: initial;
     color: black;
     box-shadow: initial
 }
 
 }
+
+
+/*CLASS FOR JS*/
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* 
+AFFICHE TOUT 
+si click sur MARIAGE, MARIAGE S'AFFICHE
+autre ITEMS NE S'AFFICHE PAS
+si clik sur BEBE , MARIAGE NE S'AFFICHE PLUS, AUTRE NE S'AFFICHE PLUS
+BEBE S'AFFICHE
+
+PSEUDO
+ALGORITHME filter
+
+VARIABLE :
+
+filterCategorie : ;
+filterItem : ;
+
+
+*/
+

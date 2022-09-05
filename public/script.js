@@ -10,34 +10,43 @@ toggleButton.addEventListener('click', () => {
 
 /*FILTER PHOTOS*/
 
-const filterContainer = document.querySelector("category");
-const galleryItems = document.querySelectorAll("filter-item");
+const buttonCategorie = document.querySelectorAll(".items span.item");
+// creer un array a partir d'une nodelist
+const arrButtonCategorie = Array.from(buttonCategorie)
 
-filterContainer.addEventListener("click", (event) =>{
-  if(event.target.classList.contains("filter-item")){
+// PHOTOS
+// recupère les photos dans une nodelist(array)
+const photoCategorie = document.querySelectorAll(".photos img");
 
-    // deactivate existing active 'filter-item'
-   filterContainer.querySelector(".active").classList.remove("active");
+const arrPhotoCategorie = Array.from(photoCategorie);
 
-    // activate new 'filter-item'
-   event.target.classList.add("active");
+// const attributClass = arrPhotoCategorie.map( photo => {
+  //   console.log( photo.getAttribute("class"))
+  // })
 
-   const filterValue = event.target.getAttribute("data-filter");
+  
+const mapButton = arrButtonCategorie.map( element => {
+  // select all button ID
+  element.addEventListener("click", () => {
+    arrPhotoCategorie.map( photo => {
 
-   galleryItems.forEach((item) =>{
+      const value = element.textContent;
+      console.log(value);
 
-      if(item.classList.contains(filterValue) || filterValue === 'all'){
-       item.classList.remove("hide");
-        item.classList.add("show");
+      if(photo.className.includes(value.toLocaleLowerCase())){
+        photo.style.display = 'block'
+
+        console.log(true);
+        }   else if (value == 'Tout') {
+            arrPhotoCategorie.forEach( photo => 
+              photo.style.display = "block")
+        }     
+        else {
+        photo.style.display = 'none'
       }
+    } )
 
-      else{
-       item.classList.remove("show");
-       item.classList.add("hide");
-      }
-
-    });
-  }
-});
-
-
+    
+  })
+  
+})

@@ -1,9 +1,10 @@
 ---
 title: Galerie
 layout: base.njk
+
 votre_galerie:
 - categorie:
-  - seul
+  - seul(e)
   photo: "/assets/seul-3.jpg"
 - categorie:
   - famille
@@ -38,66 +39,67 @@ votre_galerie:
 
 ---
 <div class="content">
-    <h1>Galerie</h1>
-    <div class="category">
-        <ul >
-            <li class="filter-item active">Tout</li>
-            <li class="filter-item">Mariage</li>
-            <li class="filter-item">Famille</li>
-            <li class="filter-item">Bébé</li>
-            <li class="filter-item">Couple</li>
-            <li class="filter-item">Baptême</li>
-            <li class="filter-item">Grossesse</li>
-            <li class="filter-item">Seul(e)</li>
-        </ul>
-    </div>
+    <h1 id="titregalerie" class="galerieTitle">Galerie</h1>
+        <div class="items" >
+            <span class="item active" id="tout">Tout</span>
+            <span class="item" id="mariage">Mariage</span>
+            <span class="item" id="famille">Famille</span>
+            <span class="item" id="bebe">Bebe</span>
+            <span class="item" id="couple">Couple</span>
+            <span class="item" id="baptême">Baptême</span>
+            <span class="item" id="grossesse">Grossesse</span>
+            <span class="item" id="seul">Seul(e)</span>
+            <span class="item nouvelle classe" id="coucou">coucou</span>
+        </div>
+
+
     <div class="photos">
 
-    <img class="photo {{galerie_2.categorie}}" src="{{votre_galerie[0].photo}}" alt="photo" >
+    <img class="photo {{votre_galerie[0].categorie}}" src="{{votre_galerie[0].photo}}" alt="photo" >
        
-    <img class="photo" src="{{votre_galerie[1].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[1].categorie}}" src="{{votre_galerie[1].photo}}" alt="photo">
     
-    <img class="photo" src="{{votre_galerie[2].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[2].categorie}}" src="{{votre_galerie[2].photo}}" alt="photo">
     
-    <img class="photo" src="{{votre_galerie[3].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[3].categorie}}" src="{{votre_galerie[3].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[4].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[4].categorie}}" src="{{votre_galerie[4].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[5].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[5].categorie}}" src="{{votre_galerie[5].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[6].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[6].categorie}}" src="{{votre_galerie[6].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[7].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[7].categorie}}" src="{{votre_galerie[7].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[8].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[8].categorie}}" src="{{votre_galerie[8].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[9].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[9].categorie}}" src="{{votre_galerie[9].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[10].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[10].categorie}}" src="{{votre_galerie[10].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[11].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[11].categorie}}" src="{{votre_galerie[11].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[12].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[12].categorie}}" src="{{votre_galerie[12].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[13].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[13].categorie}}" src="{{votre_galerie[13].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[14].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[14].categorie}}" src="{{votre_galerie[14].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[15].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[15].categorie}}" src="{{votre_galerie[15].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[16].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[16].categorie}}" src="{{votre_galerie[16].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[17].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[17].categorie}}" src="{{votre_galerie[17].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[18].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[18].categorie}}" src="{{votre_galerie[18].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[19].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[19].categorie}}" src="{{votre_galerie[19].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[20].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[20].categorie}}" src="{{votre_galerie[20].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[21].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[21].categorie}}" src="{{votre_galerie[21].photo}}" alt="photo">
 
-    <img class="photo" src="{{votre_galerie[22].photo}}" alt="photo">
+    <img class="photo {{votre_galerie[22].categorie}}" src="{{votre_galerie[22].photo}}" alt="photo">
     
     
 
