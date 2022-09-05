@@ -201,7 +201,8 @@ body, html {
 }
 
 .content h1 {
-    margin-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .photos {
     display: flex;
@@ -261,12 +262,15 @@ img {
 
 /* TARIFS ET PRESTATIONS */
 
+
+
 .serviceContents {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     align-items: center ;
+    margin-bottom: 100px;
 }
 
 .serviceContents .service:nth-child(1) {
@@ -280,6 +284,11 @@ img {
 .serviceTitle {
     display: flex;
     justify-content: center;
+}
+
+.serviceTitle h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .service {
@@ -308,11 +317,20 @@ img {
 /*CONTACT*/
 
 .form {
+    
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     width: 100vw;
     height: 100vh;
+}
+
+.form h1 {
+
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-size: 2.5rem;
+    
 }
 
 
@@ -426,15 +444,12 @@ img {
     box-shadow: initial
 }
 
-.form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
+
+.form form {
+    width: 500px;
+
+    
 }
-
-
 }
 
 
