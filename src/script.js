@@ -35,6 +35,7 @@ const mapButton = arrButtonCategorie.map( element => {
 
       if(photo.className.includes(value.toLocaleLowerCase())){
         photo.style.display = 'block'
+        
 
         console.log(true);
         }   else if (value == 'Tout') {

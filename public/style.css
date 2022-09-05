@@ -8,6 +8,7 @@
 
 body, html {
     max-width: 100vw;
+    height: 100vh;
     margin: 0px;
     padding: 0px;
 }
@@ -130,13 +131,14 @@ body, html {
 }
 /*FOOTER*/
 
-.footer {
+footer {
+    height: 200px;
     padding: 5px ;
-    background-color: #47555e9f;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #7a8d9bc0;
     color: white;
 }
 
@@ -148,6 +150,7 @@ body, html {
     background-image: url('/assets/seul-1.jpg');
     background-position: right -200px bottom 0px;
     background-repeat: no-repeat;
+    background-size:auto
 
 }
 
@@ -198,6 +201,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .content h1 {
@@ -262,7 +266,9 @@ img {
 
 /* TARIFS ET PRESTATIONS */
 
-
+main {
+    min-height: 80vh;
+}
 
 .serviceContents {
     display: flex;
