@@ -443,6 +443,10 @@ main {
 
 /***********************GALERIE********************/
 
+    .photos {
+        margin-bottom: 20px;
+    }
+
     .items .item {
         color: black;
         text-decoration: none;
@@ -479,17 +483,21 @@ main {
     }
 
 
-    .form form {
-        width: 500px;
-
-
-    }
 
 /*****************TARIFS ET PRESTATIONS****************/
 
     .serviceContents {
-        margin: 60px 15%;
+        margin: 60px 15% 110px 15%;
     }
 
+
+/*********************CONTACT**************************/    
+
+
+.form form {
+    width: 500px;
+
+
+}
 
 }
