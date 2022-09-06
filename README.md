@@ -31,7 +31,7 @@ Vous pouvez maintenant accéder au tableau de bord de votre site via votre table
 
 Enfin, pour accéder à votre site cliquer sur le nom de domaine ci dessous 
 
-![alt text](/readmeScreenshot/netlifySiteDashboard.png)
+![alt text](/readmeScreenshot/netlifyAccessDomain.png)
 
 
 
