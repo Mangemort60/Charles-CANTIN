@@ -10,7 +10,7 @@ Allez sur https://app.netlify.com et créez un compte.
 
 * Une fois l'inscription faite, connectez vous et accédez à votre tableau de bord principal.
 * cliquez sur "Add new site" et choisissez l'option qui vous convient
-    * *Import an existing project* : permet d'import votre projet à partir de [GitHub](https://github.com/), [GitLab](https://gitlab.com), [Bitbucket](https://bitbucket.org/) ...
+    * *Import an existing project* : permet d'importer votre projet à partir de [GitHub](https://github.com/), [GitLab](https://gitlab.com), [Bitbucket](https://bitbucket.org/) ...
     * *Deploy manually* : permet de deployer son site manuellement
 
 
