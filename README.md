@@ -1,4 +1,4 @@
-# Mise en ligne et gestion de votre site web 
+# Mise en ligne de votre site web 
 
 
 ## Etape 1 - inscription
@@ -51,3 +51,33 @@ Une fois dans votre formulaire vous pourrez lire tout les messages reçus dans l
 ![alt text](/readmeScreenshot/netlifyForm.png)
 
 
+<br/>
+<br/>
+
+# Modifier le contenu de votre site web
+
+<br/>
+
+Pour modifier le contenu de votre site web, accédez à [Forestry.io](https://app.forestry.io/login),  connectez vous avez les identifiants que je vous ai fournis
+
+![alt text](/readmeScreenshot/forestryLogin.png)
+
+Vous pouvez ensuite accéder à la rubrique galerie
+
+![alt text](/readmeScreenshot/forestryGalleryAccess.png)
+
+Cliquez sur *"ADD VOTRE GALERIE"* pour ajouter un element de la galerie
+
+![alt text](/readmeScreenshot/forestryAddGalleryElement.png)
+
+Ajoutez la Catégorie concernée et télécharger votre Photo, enregistrez avec le bouton "SAVE".
+
+![alt text](/readmeScreenshot/forestryUploadPhotoAndCategory.png)
+
+Pour changer le contenu de vos services cliquez sur la rubrique Tarifs et prestations, cliquez ensuite sur la prestation que vous souhaitez modifier
+
+![alt text](/readmeScreenshot/forestryServicesAccess.png)
+
+Modifiez le contenu que vous souhaitez, enregistrez avec le bouton "SAVE"
+
+![alt text](/readmeScreenshot/forestryModifyServices.png)
